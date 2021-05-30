@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="common/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e556b96378.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>kakao talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__col">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__col">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__col">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header>
+      <h2>Welcome to KakaoTalk</h2>
+      <p>
+        If you have a Kakao Account, log in with your email or phone Number.
+      </p>
+    </header>
+
+    <form class="welcome">
+      <input
+        class="welcome__input"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input
+        class="welcome__input"
+        type="password"
+        placeholder="Password"
+        required
+      />
+      <input class="welcome__submit" type="submit" value="Log In" />
+      <input class="welcome__submit" type="submit" value="Sign Up" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+  </body>
+</html>
