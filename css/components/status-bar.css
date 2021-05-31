@@ -1,4 +1,7 @@
 .status-bar {
+  padding-top:4px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: flex;
   justify-content: center;
 }
@@ -16,4 +19,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.status-bar__col .fa-battery-quarter{
+  margin: 0px 4px;
+}
+
+.status-bar__col .fa-wifi{
+  margin-left: 4px;
 }

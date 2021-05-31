@@ -1,0 +1,49 @@
+.welcome-header {
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__text{
+  margin-top:30px;
+  width:60%;
+  opacity: 0.5;
+}
+
+.welcome-account {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.welcome-account__input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 0px;
+  transition: border-bottom 0.3s ease-in-out;
+
+}
+
+.welcome-account__input:focus {
+  border-bottom: 1px solid var(--yellow);
+}
+
+.welcome-account__a {
+  text-align: center;
+  font-size: 13px;
+}
+
+.welcome-account__btn {
+  padding: 15px 0px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+
+ .welcome-account__btn[value="Log In"]{
+   margin-top:15px;
+ }

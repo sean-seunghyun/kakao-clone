@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="common/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
@@ -32,29 +32,33 @@
       </div>
     </div>
 
-    <header>
-      <h2>Welcome to KakaoTalk</h2>
-      <p>
+    <header class="welcome-header">
+      <h1 class="wecome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
         If you have a Kakao Account, log in with your email or phone Number.
       </p>
     </header>
 
-    <form class="welcome">
+    <form class="welcome-account" action="friends.html" method="get" id="login-form">
       <input
-        class="welcome__input"
+        class="welcome-account__input"
         type="text"
         placeholder="Email or phone number"
+        autocomplete="disabled"
+        name="username"
         required
       />
       <input
-        class="welcome__input"
+        class="welcome-account__input"
         type="password"
         placeholder="Password"
+        name="password"
+        autocomplete="new-password"
         required
       />
-      <input class="welcome__submit" type="submit" value="Log In" />
-      <input class="welcome__submit" type="submit" value="Sign Up" />
-      <a href="#">Find Kakao Account or Password</a>
+      <input class="welcome-account__btn" type="submit" value="Log In" />
+      <input class="welcome-account__btn" type="submit" value="Sign Up" />
+      <a class="welcome-account__a" href="#">Find Kakao Account or Password</a>
     </form>
   </body>
 </html>
