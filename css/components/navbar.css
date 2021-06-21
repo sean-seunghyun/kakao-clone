@@ -1,0 +1,51 @@
+.navbar{
+
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    padding: 20px 50px;
+    box-sizing: border-box; <!--padding으로 인해 박스가 넓어지는 것을 막아줌 -->;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #f6f2f2;
+}
+
+.navbar__button .fa-comment{
+    position: relative;
+}
+
+.navbar__notification{
+    background-color: tomato;
+    color:white;
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom:15px;
+    right: -8px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.navbar__button .fa-ellipsis-h{
+    position: relative;
+}
+
+.navbar__update{
+    width:5px;
+    height:5px;
+    border-radius: 2.5px;
+    display: block;
+    background-color: tomato;
+    font-size:36px;
+    position:absolute;
+    bottom:29px;
+    left: 30px;
+}
