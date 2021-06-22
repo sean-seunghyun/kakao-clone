@@ -1,0 +1,128 @@
+.find-methods{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.find-methods-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-methods-button i{
+    opacity: 0.8;
+}
+
+.find-methods-button span{
+    margin-top:20px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.recommended-friends{
+    border-top: 1px rgba(0,0,0,0.2) solid;
+    border-bottom: 1px rgba(0,0,0,0.2) solid;
+}
+
+.recommended-friends__title{
+    margin-top:20px;
+    color:var(--grey);
+}
+
+.recommended-friends__contents{
+    display: block;
+    margin:100px 0px;
+    text-align: center;
+    color:var(--grey);
+}
+
+
+.open-chat__title{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.open-chat__title span,
+.open-chat__title i{
+    color:var(--grey);
+    font-size: 14px;
+}
+
+.open-chat-room{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0px;
+    padding: 5px 0px;
+    border-bottom: 1px rgba(0,0,0,0.2) solid;
+}
+
+.open-chat-room__info{
+    display: flex;
+    align-items: center;
+
+}
+
+.open-chat-room__info img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.open-chat-room__hashtags h3,
+.open-chat-room__info__members{
+    color: var(--grey);
+}
+.open-chat-room__info__active{
+    color:hotpink;
+}
+
+.open-chat-room__info img{
+    margin-right: 4px;
+}
+
+.open-chat-room__info .border{
+    height: 16px;
+    width: 1px;
+    background-color: var(--grey);
+    margin: 0 4px;
+    /*align-items: center;*/
+}
+
+.open-chat-room__title,
+.open-chat-room__hashtags,
+.open-chat-room__info{
+    margin-bottom: 7px;
+}
+
+.open-chat-room__thumbnail img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+}
+
+
+.open-chat-room__thumbnail{
+    position: relative;
+}
+.open-chat-room__likes{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 8px;
+    bottom:5px;
+    right:5px;
+    position: absolute;
+}
+.open-chat-room__likes span,
+.open-chat-room__likes .fa-heart{
+    color:white;
+    font-size: 14px;
+}
+
+.open-chat-room__likes span{
+    margin-left: 5px;
+}

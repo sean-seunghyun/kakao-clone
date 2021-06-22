@@ -2,5 +2,14 @@
 @import url(components/status-bar.css);
 @import url(components/screen-header.css);
 @import url(components/navbar.css);
+@import url(components/badge.css);
+@import url(components/user-component.css);
 @import url(variables.css);
 @import url(index.css);
+@import url(friends.css);
+@import url(find.css);
+
+.main-screen{
+    padding : 0px var(--horizontal-space);
+}
+

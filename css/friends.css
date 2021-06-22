@@ -1,0 +1,36 @@
+
+
+#friends-display-link{
+    display: block;
+    text-align: center;
+    background-color: #faf7f7;
+    padding: 10px;
+    margin-top:-15px;
+}
+
+#friends-display-link i{
+    color: rgba(0,0,0,0.3);
+}
+
+#friends-display-link .fa-angle-right{
+    margin-left: 5px;
+}
+
+
+.channel{
+    border-top:1px solid rgba(0,0,0,0.1);
+}
+
+.channel-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0px;
+}
+
+.channel__title,
+.channel-column i{
+    color:rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+

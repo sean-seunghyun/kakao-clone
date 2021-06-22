@@ -3,8 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 5px var(--horizontal-space);
     margin-top:15px;
+    margin-bottom:30px;
 }
 
 .screen-header__title{
