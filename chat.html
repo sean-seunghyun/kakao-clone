@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script
+            src="https://kit.fontawesome.com/e556b96378.js"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat | kakao talk</title>
+</head>
+<body class="chat__body">
+
+
+
+<div class="status-bar">
+    <div class="status-bar__col">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__col">
+        <span>18:43</span>
+    </div>
+    <div class="status-bar__col">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+    </div>
+</div>
+
+<header class="alt-status-bar">
+    <div class="alt-status-bar__col">
+        <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+    </div>
+    <div class="alt-status-bar__col">
+        <span class="alt-status-bar__title">김승현</span>
+    </div>
+    <div class="alt-status-bar__col">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<main class="main-screen main-chat">
+    <div class="chat">
+        <div class="chat-date__contatiner">
+            <div class="chat-date">
+                <h4>Tuesday, June 30, 2020</h4>
+            </div>
+        </div>
+        <div class="chat-get">
+            <div class="chat-get__column">
+                <div class="chat-get__avatar">
+                    <img class="user-component__avatar-xs" src="https://avatars.githubusercontent.com/u/54205715?s=60&v=4">
+                </div>
+                <div class="chat-get-text">
+                    <span class="chat-get-text__name">Nicolas Serrano</span>
+                    <div class="chat-get-text__column">
+                        <span class="chat-get__message">Hi!</span>
+                        <div class="chat-get-timestamp__container"><span class="chat-get__timestamp">21:27</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-get__column"></div>
+        </div>
+        <div class="chat-send">
+            <div class="chat-send__column">
+                <div class="chat-send-text">
+                    <div class="chat-send-text__column">
+                        <div class="chat-send-timestamp__container"><span class="chat-send__timestamp">21:27</span></div>
+                        <span class="chat-send__message">What's up?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="chat-input">
+        <div class="chat-input__menu"><i class="fas fa-plus"></i></div>
+        <div class="chat-input__bar">
+            <div class="chat-input__message">
+                <input type="text" value="Hi!"/>
+            </div>
+            <div class="chat-input__emoticon"><i class="far fa-smile"></i></div>
+            <div class="chat-input__send"><i class="fas fa-arrow-up"></i></div>
+        </div>
+    </div>
+    <div class="chat-keyboard"></div>
+</main>
+
+
+
+<nav class="navbar">
+    <ul class="navbar__list">
+        <li  class="navbar__button">
+            <a href="friends.html" class="navbar__link"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="navbar__button">
+            <a href="chats.html" class="navbar__link">
+                <i class="far fa-comment fa-2x">
+                    <span class="navbar__notification badge">1</span>
+                </i>
+
+            </a>
+        </li>
+        <li class="navbar__button">
+            <a href="find.html" class="navbar__link">
+                <i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="navbar__button">
+            <a href="more.html" class="navbar__link">
+
+                <i class="fas fa-ellipsis-h fa-2x">
+                    <span class="navbar__update"></span>
+                </i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+</body>
+</html>

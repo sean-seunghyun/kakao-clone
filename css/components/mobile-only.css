@@ -1,0 +1,19 @@
+.mobile-only{
+    background-color: var(--yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    z-index: 100;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .mobile-only{
+        display: none;
+    }
+}

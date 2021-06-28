@@ -1,0 +1,21 @@
+.menu-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.menu-row-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-row-button i{
+    opacity: 0.8;
+}
+
+.menu-row-button span{
+    margin-top:20px;
+    font-size: 15px;
+    opacity: 0.8;
+}

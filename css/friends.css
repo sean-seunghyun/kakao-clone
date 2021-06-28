@@ -34,3 +34,29 @@
     font-size: 14px;
 }
 
+
+@keyframes splash-screen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.splash-screen{
+    position: absolute;
+    background-color: var(--yellow);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top:0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    animation: splash-screen 2s ease-in-out forwards;
+}
+

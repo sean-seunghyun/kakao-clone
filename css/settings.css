@@ -1,0 +1,35 @@
+.settings__body .main-screen{
+    margin-top: 50px;
+}
+
+.settings__body .alt-status-bar{
+    background-color: white;
+}
+
+.settings-setting{
+    display: flex;
+    justify-content: space-between;
+    border-bottom :1px rgba(0,0,0,0.1) solid;
+    padding: 30px 0px;
+}
+
+.settings-setting__note{
+    color:var(--grey);
+}
+
+.settings-setting__title{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.settings-setting__column{
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    justify-content: space-between;
+}
+
+.settings-setting__icon{
+    width: 50px;
+    text-align: center;
+}

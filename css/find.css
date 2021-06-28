@@ -1,24 +1,4 @@
-.find-methods{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:30px;
-}
 
-.find-methods-button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-methods-button i{
-    opacity: 0.8;
-}
-
-.find-methods-button span{
-    margin-top:20px;
-    font-size: 15px;
-    opacity: 0.8;
-}
 
 .recommended-friends{
     border-top: 1px rgba(0,0,0,0.2) solid;

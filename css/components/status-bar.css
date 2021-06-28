@@ -4,6 +4,11 @@
   padding-right: 5px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top:0;
+  z-index: 2;
 }
 
 .status-bar__col {

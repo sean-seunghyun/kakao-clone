@@ -1,0 +1,38 @@
+.alt-status-bar {
+    margin-top:10px;
+    padding-top:4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top:12px;
+    z-index: 1;
+}
+
+
+.alt-status-bar i{
+    font-size: 30px;
+}
+.alt-status-bar__title{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.alt-status-bar__col {
+    width: 33%;
+}
+
+.alt-status-bar__col:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-status-bar__col:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

@@ -11,12 +11,9 @@
             crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Friends | kakao talk</title>
+    <title>More | kakao talk</title>
 </head>
 <body>
-
-
-
 <div class="status-bar">
     <div class="status-bar__col">
         <span>No Service</span>
@@ -34,74 +31,75 @@
 
 
 <header class="screen-header">
-    <h1 class="screen-header__title">Friends</h1>
+    <h1 class="screen-header__title">More</h1>
     <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span></span>
+        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
     </div>
 </header>
 
-
-<a id="friends-display-link">
-    <i class="fas fa-info-circle"></i>
-    <span>Friends' Name Display</span>
-    <i class="fas fa-angle-right"></i>
-</a>
-
-
-<main class="main-screen">
+<main class="main-screen more-screen">
     <div class="user-component">
         <div class="user-component__column">
-            <img class="user-component__avatar user-component__avatar-xl" src="https://avatars.githubusercontent.com/u/54205715?s=60&v=4">
+            <img class="user-component__avatar" src="https://avatars.githubusercontent.com/u/54205715?s=60&v=4">
             <div class="user-component__text">
                 <h3 class="user-component__title">김승현</h3>
+                <span class="user-component__subtitle">+82 10-7204-2825</span>
             </div>
         </div>
-<!--        <div class="user-component__column">-->
-<!--            <span>2</span>-->
-<!--            <i class="fas fa-angle-right"></i>-->
-<!--        </div>-->
-<!--    </div>-->
-    </div>
-
-
-
-
-
-    <div class="channel">
-        <div class="channel-column">
-            <h6 class="channel__title">Channel</h6>
-            <i class="fas fa-angle-up"></i>
-        </div>
-
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar-xs" src="https://avatars.githubusercontent.com/u/54205715?s=60&v=4">
-                <div class="user-component__text">
-                    <h3 class="user-component__title">Channel</h3>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-angle-right fa-xs"></i>
-                </div>
-            </div>
+        <div class="user-component__column">
+            <i class="fas fa-envelope-open-text fa-2x"></i>
         </div>
     </div>
+
+    <div class="menu-row">
+        <div class="menu-row-button">
+            <i class="far fa-calendar-alt fa-2x"></i>
+            <span>QR Code</span>
+        </div>
+        <div class="menu-row-button">
+            <i class="far fa-address-book fa-2x"></i>
+            <span>Add by Contacts</span>
+        </div>
+        <div class="menu-row-button">
+            <i class="far fa-smile fa-2x"></i>
+            <span>Emoticons</span>
+        </div>
+        <div class="menu-row-button">
+            <i class="fab fa-themeisle fa-2x"></i>
+            <span>Themes</span>
+        </div>
+    </div>
+
+    <div class="suggestions">
+        <h3 class="suggestions__title">Suggestions</h3>
+        <div class="suggestions__icons">
+            <div class="suggestions__icon">
+                <i class="fab fa-angellist fa-3x"></i>
+                <span>Kakao Story</span>
+            </div>
+            <div class="suggestions__icon">
+                <i class="fab fa-angellist fa-3x"></i>
+                <span>Kakao Story</span>
+            </div>
+            <div class="suggestions__icon">
+                <i class="fab fa-angellist fa-3x"></i>
+                <span>Kakao Story</span>
+            </div>
+
+        </div>
+    </div>
+
 
 </main>
 
-<div class="splash-screen">
-    <i class="fas fa-comment fa-2x"></i>
-</div>
+
 
 <nav class="navbar">
     <ul class="navbar__list">
         <li  class="navbar__button">
-            <a href="friends.html" class="navbar__link"><i class="fas fa-user fa-2x"></i></a>
+            <a href="friends.html" class="navbar__link"><i class="far fa-user fa-2x"></i></a>
         </li>
         <li class="navbar__button">
             <a href="chats.html" class="navbar__link">
@@ -112,7 +110,8 @@
             </a>
         </li>
         <li class="navbar__button">
-            <a href="find.html" class="navbar__link"><i class="fas fa-search fa-2x"></i></a>
+            <a href="find.html" class="navbar__link">
+                <i class="fas fa-search fa-2x"></i></a>
         </li>
         <li class="navbar__button">
             <a href="more.html" class="navbar__link">
@@ -125,9 +124,6 @@
     </ul>
 </nav>
 
-<div class="mobile-only">
-    Size is too big😭
-</div>
 
 </body>
 </html>
